@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    display:flex;
+    background-color: aquamarine;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    background-color: red;
+    width:auto;
+}
+
+nav img {
+    width: 2.5em;
+    margin-left: 20px;
+}
+.about-text {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin: 5px 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(255, 255, 172);
+}
+
+main {
+    background-color: rgb(209, 160, 255);
+    color: white;
+}
+
+.about {
+    background-color: rgb(189, 118, 255);
+}
+
+.proyects {
+    background-color: rgb(125, 75, 172);
+}
+
+a:visited {
+    color: rgb(192, 192, 192);
+}
+
+a:hover{
+    color: aquamarine;
+}
+
+.cursos {
+    background-color: rgb(85, 30, 136);
+}
+
+.habilidades {
+    background-color: rgb(42, 12, 71);
+}
